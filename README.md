@@ -6,6 +6,6 @@
 
 
 ```bash
-docker build -t novre/ xray-argo:v1.1-26826 .
-docker push novre/ xray-argo:v1.1-26826
+docker build -t novre/xray-argo:v1.1-26826 .
+docker push novre/xray-argo:v1.1-26826
 ```
