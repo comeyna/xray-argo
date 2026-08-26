@@ -1,13 +1,13 @@
 FROM alpine:3.20
 
-LABEL maintainer="your-name"
+LABEL maintainer="novre"
 LABEL description="Xray VMess WebSocket + Cloudflare Tunnel (Alpine)"
 
 # 默认配置（可通过环境变量覆盖）
 ENV XRAY_VERSION="v26.3.27" \
-    VMESS_PORT="54321" \
+    VMESS_PORT="" \
     UUID="" \
-    DOMAIN="novre.rahn.top" \
+    DOMAIN="" \
     ARGO_TOKEN="" \
     WS_PATH="/vmws"
 
