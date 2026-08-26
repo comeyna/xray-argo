@@ -1,0 +1,17 @@
+services:
+  xray-argo:
+    image: xray-argo:latest
+    container_name: xray-argo
+    restart: always
+    environment:
+      - UUID=e7b0bc44-7094-466f-8dd8-3d82321f15ba
+      - DOMAIN=novre.rahn.top
+      - ARGO_TOKEN=你的真实Token
+      - VMESS_PORT=54321
+      - WS_PATH=/vmws
+    # 不需要映射端口（全部通过 Cloudflare Tunnel 出去）
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
