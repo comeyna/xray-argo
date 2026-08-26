@@ -4,7 +4,7 @@ services:
     container_name: xray-argo
     restart: always
     environment:
-      - UUID=58242602-08b0-4f63-ab47-e7a61c7ab8ea
+      - UUID=53165c6d-76e4-42f2-83d0-687aa488c5dd
       - DOMAIN=ciallo.orange.top
       - ARGO_TOKEN=eyJhIjoiZTZiOGQwZmQ2ZGNiMGEyMGM0MjFkZmQzMDA1MTYwZWEiLCJ0IjoiMWZkYTZmMmUtMjA4NS00MWIwLWJjMzUtZDRmZGQ4MWJiYTJjIiwicyI6Ik9UVmpaRGd3TVRVdE5HUTVZUzAwWXpFNUxXSTNOVE10WWpoaVkyUmpNVFZtTUdNeSJ2
       - VMESS_PORT=2026
